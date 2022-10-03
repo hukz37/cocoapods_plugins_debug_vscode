@@ -11,7 +11,7 @@
         "useBundler": true,
         "pluginPath": "../cocoapods-ddplugin",
         "cwd": "${workspaceRoot}/iOSDemo",
-        "program": "${workspaceRoot}/cocoapods/bin/pod",
+        "program": "${workspaceRoot}/CocoaPods/bin/pod",
         "args": ["install"]
       }
     ]
