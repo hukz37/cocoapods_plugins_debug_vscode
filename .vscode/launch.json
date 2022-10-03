@@ -9,9 +9,9 @@
         "type": "Ruby",
         "request": "launch",
         "useBundler": true,
-        "pluginPath": "../cocoapods-my-debug",
+        "pluginPath": "../cocoapods-ddplugin",
         "cwd": "${workspaceRoot}/iOSDemo",
-        "program": "${workspaceRoot}/Cocoapods/bin/pod",
+        "program": "${workspaceRoot}/cocoapods/bin/pod",
         "args": ["install"]
       }
     ]

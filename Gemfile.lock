@@ -1,5 +1,10 @@
 PATH
-  remote: Cocoapods
+  remote: cocoapods-ddplugin
+  specs:
+    cocoapods-ddplugin (0.0.1)
+
+PATH
+  remote: cocoapods
   specs:
     cocoapods (1.11.3)
       addressable (~> 2.8)
@@ -20,13 +25,8 @@ PATH
       ruby-macho (>= 2.3.0, < 3.0)
       xcodeproj (>= 1.21.0, < 2.0)
 
-PATH
-  remote: cocoapods-my-debug
-  specs:
-    cocoapods-my-debug (0.0.1)
-
 GEM
-  remote: https://rubygems.org/
+  remote: http://gems.ruby-china.com/
   specs:
     CFPropertyList (3.0.5)
       rexml
@@ -100,14 +100,14 @@ GEM
       colored2 (~> 3.1)
       nanaimo (~> 0.3.0)
       rexml (~> 3.2.4)
-    zeitwerk (2.6.0)
+    zeitwerk (2.6.1)
 
 PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
   cocoapods!
-  cocoapods-my-debug!
+  cocoapods-ddplugin!
   debase
   ruby-debug-ide
 
