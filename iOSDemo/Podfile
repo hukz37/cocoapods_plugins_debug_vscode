@@ -5,10 +5,13 @@ plugin 'cocoapods-ddplugin'
 
 target 'iOSDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+  # use_frameworks!
 
   pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'BaiduMapKit'
 
+  
   target 'iOSDemoTests' do
     inherit! :search_paths
     # Pods for testing

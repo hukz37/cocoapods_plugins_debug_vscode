@@ -14,17 +14,38 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - BaiduMapKit (6.5.3):
+    - BaiduMapKit/Base (= 6.5.3)
+    - BaiduMapKit/Map (= 6.5.3)
+    - BaiduMapKit/Search (= 6.5.3)
+    - BaiduMapKit/Utils (= 6.5.3)
+  - BaiduMapKit/Base (6.5.3)
+  - BaiduMapKit/Map (6.5.3):
+    - BaiduMapKit/Base
+  - BaiduMapKit/Search (6.5.3):
+    - BaiduMapKit/Base
+  - BaiduMapKit/Utils (6.5.3):
+    - BaiduMapKit/Base
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
 
 DEPENDENCIES:
   - AFNetworking
+  - BaiduMapKit
+  - SDWebImage
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - BaiduMapKit
+    - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BaiduMapKit: 54623026cd183511b1525a448094211d4fd5d646
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
 
-PODFILE CHECKSUM: 3cda52185c33c95511e96fe7da7661c996fac353
+PODFILE CHECKSUM: e56db0ef4067199b9f8dbcd7c2c0e59796ace7fb
 
 COCOAPODS: 1.11.3
